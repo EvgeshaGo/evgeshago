@@ -18,7 +18,7 @@ def random_predict(number:int=1) -> int:
     while number != predict:
         count += 1
         if number > predict:
-            predict += 10
+            predict += 5
         elif number < predict:
             predict -= 3
 
